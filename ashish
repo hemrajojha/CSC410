@@ -1,0 +1,7 @@
+#Task: 
+#1. Create set X_1 of Country column from the dataset
+X_1= dataset.iloc[: , 0] 
+#2. Create set X_2 of Age and Salary columns from the dataset
+X_2 = dataset.iloc[: , 2]
+#3. Create set X_3 of first five records in the dataset
+X_2 = dataset.iloc[[0,1,2,3,4,5] , :]
